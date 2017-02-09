@@ -1,0 +1,27 @@
+{
+  "name": "userSettings",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "language": {
+      "type": "string",
+      "required": true,
+      "default": "NL"
+    },
+    "partyId": {
+      "type": "number",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "default": "NL"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

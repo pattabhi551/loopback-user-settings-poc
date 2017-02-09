@@ -1,0 +1,8 @@
+{
+  "userSettingsDatasource": {
+    "name": "userSettingsDatasource",
+    "localStorage": "",
+    "file": "",
+    "connector": "memory"
+  }
+}
